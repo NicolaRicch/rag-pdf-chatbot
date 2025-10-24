@@ -1,22 +1,23 @@
 # Chatbot RAG Multi-PDF
-Questo progetto implementa un chatbot basato su RAG (Retrieval-Augmented Generation) capace di rispondere a domande sui contenuti di più file PDF. Utilizza il modello Gemma tramite Ollama, embeddings con SentenceTransformer e un database vettoriale Chroma.
+
+Questo progetto implementa un chatbot basato su RAG (Retrieval-Augmented Generation) capace di rispondere a domande sui contenuti di più file PDF. Utilizza il modello **Gemma** tramite Ollama, embeddings con **SentenceTransformer** e un database vettoriale **Chroma**.
 
 ## Funzionalità principali:
 - Caricamento di uno o più PDF nella cartella `data`.
-- Spezzamento dei PDF in chunk di testo per un recupero più preciso.
+- Spezzamento dei PDF in **chunk di testo** per un recupero più preciso.
 - Indicizzazione automatica dei chunk nel database Chroma (`chroma_db`).
-- Possibilità di visualizzare i PDF caricati e rimuoverli dal menu a scomparsa (sidebar).
+- Possibilità di **visualizzare i PDF caricati** e **rimuoverli** dal menu a scomparsa (sidebar).
 - Chat con il modello LLM che utilizza i documenti come riferimento.
 - Memoria della conversazione: il chatbot ricorda le domande precedenti e le risposte.
 
 # Come usare il progetto:
 
 ## Clonare il repository
-git clone https://github.com/NicolaRicch/rag-pdf-chatbot.git
-cd chatbot-pdf-rag
+- git clone https://github.com/NicolaRicch/rag-pdf-chatbot.git
+- cd chatbot-pdf-rag
 
 ## Installare le dipendenze
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## Caricare i PDF
 Inserisci i PDF nella cartella data/ oppure caricali tramite l’interfaccia Streamlit (se decidi di riattivarla).
