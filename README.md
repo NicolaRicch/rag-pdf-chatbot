@@ -26,10 +26,10 @@ Inserisci i PDF nella cartella data/ oppure caricali tramite l’interfaccia Str
 - streamlit run app.py
 
 ## Interagire con il bot:
-1 Inserisci la tua domanda nell’apposito campo.
-2 Il bot risponderà usando le informazioni contenute nei PDF.
-3 La risposta include anche le fonti (nome dei PDF).
-4 Puoi controllare e rimuovere i PDF direttamente dal menu a scomparsa.
+1. Inserisci la tua domanda nell’apposito campo.
+2. Il bot risponderà usando le informazioni contenute nei PDF.
+3. La risposta include anche le fonti (nome dei PDF).
+4. Puoi controllare e rimuovere i PDF direttamente dal menu a scomparsa.
 
 ## Struttura del progetto:
 ```
