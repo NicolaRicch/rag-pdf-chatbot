@@ -34,6 +34,7 @@ La risposta include anche le fonti (nome dei PDF).
 Puoi controllare e rimuovere i PDF direttamente dal menu a scomparsa.
 
 ## Struttura del progetto:
+```
 CHATBOT PDF RAG/
 ├─ chatbot_pdf_multi.py # Logica del chatbot, gestione PDF e database
 ├─ app.py # Interfaccia Streamlit
@@ -41,6 +42,7 @@ CHATBOT PDF RAG/
 ├─ chroma_db/ # Database Chroma
 ├─ requirements.txt # Dipendenze
 └─ README.md
+```
 
 
 ## Tecnologie utilizzate
